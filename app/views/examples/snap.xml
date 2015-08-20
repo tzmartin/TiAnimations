@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="win" onOpen="doOpen">
+		<View id="block" onClick="doSnap" onTouchstart="doTouchStart" onTouchmove="doTouchMove" onTouchend="doTouchEnd"/>
+	</Window>
+</Alloy>

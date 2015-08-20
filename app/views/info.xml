@@ -1,0 +1,10 @@
+<Alloy>
+	<NavigationWindow id="win">
+		<Window title="About">
+			<LeftNavButton>
+				<Button id="btnClose" onClick="doClose" />
+			</LeftNavButton>
+			<WebView id="webview" />
+		</Window>
+	</NavigationWindow>
+</Alloy>

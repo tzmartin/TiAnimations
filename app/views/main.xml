@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="win">
+		<TableView id="tableView" onClick="doClick" />
+		<RightNavButton>
+			<Button id="btnInfo" onClick="doOpenInfo" />
+		</RightNavButton>
+	</Window>
+</Alloy>

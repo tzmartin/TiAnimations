@@ -1,0 +1,9 @@
+"#win" : {
+	title:'Fade Effects'
+}
+
+"#box1":{
+	width:'50%',
+	height:'25%',
+	backgroundColor:'red'
+}

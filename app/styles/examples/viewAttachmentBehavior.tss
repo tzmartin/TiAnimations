@@ -1,0 +1,25 @@
+
+
+"#redBlock":{
+    backgroundColor: 'red',
+    width: 50,
+    height: 50,
+    top: 10,
+    left: 40
+}
+
+"#greenBlock":{
+    backgroundColor: 'green',
+    width: 30,
+    height: 30,
+    borderRadius:15,
+    top: 50,
+}
+
+"#blueBlock":{
+    backgroundColor: 'blue',
+    width: 50,
+    height: 50,
+    top: 10,
+    right: 40
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win">
+	    <ImageView id="board" />
+		<ImageView id="spinner" onClick="doAnimate" />
+		<Label id="angleLabel" />
+	</Window>
+</Alloy>

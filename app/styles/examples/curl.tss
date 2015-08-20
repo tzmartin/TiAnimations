@@ -1,0 +1,26 @@
+"#win" : {
+	title:'Transition Effects'
+}
+
+"#container":{
+	borderColor:'red',
+	borderWidth:10
+}
+
+"#box1":{
+	backgroundColor:'blue',
+	top:5,
+	left:5,
+	right:5,
+	bottom:5,
+	opacity:1
+}
+
+"#box2":{
+	backgroundColor:'green',
+	top:5,
+	left:5,
+	right:5,
+	bottom:5,
+	opacity:1
+}

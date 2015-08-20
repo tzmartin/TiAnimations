@@ -1,0 +1,21 @@
+"#win" : {
+	title:'Fly In/Out'
+}
+
+"#box1":{
+	backgroundColor:'red',
+	width:80,
+	height:80,
+	top:5,
+	left:5,
+	opacity:1
+}
+
+"#box2":{
+	backgroundColor:'green',
+	top:600,
+	left:400,
+	width:80,
+	height:80,
+	opacity:1
+}

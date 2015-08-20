@@ -1,0 +1,11 @@
+
+"#win":{
+	
+}
+"#webview":{
+	url:'https://github.com/tzmartin/TiAnimations'
+}
+
+"#btnClose":{
+	systemButton:Titanium.UI.iPhone.SystemButton.DONE
+}

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" onOpen="doOpen">
+		
+		<View id="redBlock" onClick="doRedClick" />
+		<View id="greenBlock" />
+		<View id="blueBlock" onClick="doBlueClick" />
+		
+	</Window>
+</Alloy>

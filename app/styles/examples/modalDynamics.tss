@@ -1,0 +1,55 @@
+
+"#win" : {
+	title:'Dynamic Modal'
+}
+
+".container":{
+    
+}
+
+"#modal":{
+    top:-200,
+    width:200,
+    height:100,
+    backgroundColor:'#efefef',
+	borderColor:'#999',
+	borderRadius:7,
+	borderWidth:1,
+	viewShadowColor:'#77333333',
+	viewShadowOffset:{x:2,y:2},
+	viewShadowRadius: 4
+}
+
+"#open":{
+    title:'Show Alert',
+    font:{
+        fontSize:18
+    }
+}
+
+"#title":{
+    top:3,
+    text:'Alert',
+    textAlign:'center'
+}
+
+"#message":{
+    top:25,
+    height:44,
+    text:'This is a modal alert!',
+    textAlign:'center',
+    font:{
+        fontSize:11
+    }
+}
+
+".buttonContainer":{
+    bottom:3,
+    height:Ti.UI.SIZE,
+    width:Ti.UI.SIZE,
+    layout:'horizontal'
+}
+
+"#close":{
+    title:'Close'
+}

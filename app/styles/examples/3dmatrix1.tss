@@ -1,0 +1,5 @@
+
+"#logo" : {
+  width:120,
+  image:'logo.png'
+}

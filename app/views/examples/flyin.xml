@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win">
+		<View id="box1" onClick="doClick" />
+		<View id="box2" onClick="doHide" />
+	</Window>
+</Alloy>

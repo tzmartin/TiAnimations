@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="win">
+		<ImageView id="logo" onClick="doAnimate" />
+	</Window>
+</Alloy>

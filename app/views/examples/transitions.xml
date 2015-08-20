@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win">
+		
+		<View id="container" onClick="doClick">
+			<View id="box1" />
+			<View id="box2" />						
+		</View>
+		
+	</Window>
+</Alloy>

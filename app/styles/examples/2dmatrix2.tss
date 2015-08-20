@@ -1,0 +1,22 @@
+
+"#board":{
+  top:0,
+  width:Ti.Platform.displayCaps.platformHeight,
+  height:Ti.Platform.displayCaps.platformWidth,
+  image:'images/wof.bg.png'
+}
+"#spinner" : {
+  top:80,
+  width:711,
+  height:711,
+  image:'images/wof.wheel.png'
+}
+
+"#angleLabel":{
+  top:10,
+	text:'0',
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	color:'#aaa',
+	font:{ fontSize:48 }
+}

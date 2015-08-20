@@ -1,0 +1,11 @@
+"#win": {
+	title:'Examples',
+	backgroundColor:'white',
+	navBarHidden:true
+}
+"#tableView": {
+	opacity:0
+}
+"#btnInfo":{
+	systemButton:Titanium.UI.iPhone.SystemButton.INFO_DARK
+}

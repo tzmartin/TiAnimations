@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TiAnimations - A kitchen sink for animation effects
 
 ![Screenshot](https://monosnap.com/file/cQkc0OrHaWNWA7GHUiD05VPoFb3Arl.png)
@@ -41,8 +40,3 @@ Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
 
 Titanium is licensed under the Apache Public License (Version 2). Please
 see the LICENSE file for the full license.
-
-=======
-TiAnimations
-============
->>>>>>> 5a30fa5f54fc32ddc73865ed45296ee328e00ea5

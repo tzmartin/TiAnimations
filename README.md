@@ -21,6 +21,10 @@
 
 ```
 
+## Theme
+
+This app implements the custom Appcelerator android theme (see `platform/android`).
+
 ## Authors
 
 - TZ Martin <martin@semanticpress.com>

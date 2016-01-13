@@ -1,5 +1,7 @@
 <Alloy>
-	<NavigationWindow id="win">
+
+	<!-- iOS -->
+	<NavigationWindow id="win" platform="ios">
 		<Window title="About">
 			<LeftNavButton>
 				<Button id="btnClose" onClick="doClose" />
@@ -7,4 +9,13 @@
 			<WebView id="webview" />
 		</Window>
 	</NavigationWindow>
+
+	<!-- Android -->
+	<Window id="win" title="About" platform="android">
+		<Menu id="menu" platform="android">
+			<MenuItem id="btnClose" title="Close" icon="Ti.Android.R.drawable.ic_menu_stop" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="doClose"/>
+		</Menu>
+		<WebView id="webview" />
+	</Window>
+
 </Alloy>

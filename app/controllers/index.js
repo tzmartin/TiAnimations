@@ -1,7 +1,3 @@
-Alloy.Globals.Nav = $.nav;
+Alloy.createController('home');
 
-Alloy.Globals.Nav.open();
-
-
-// create lower 3rd
-Alloy.Globals.Nav.add(require('lowerthird'));
+Alloy.Globals.Main.open();

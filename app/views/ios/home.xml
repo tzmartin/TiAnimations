@@ -1,0 +1,5 @@
+<Alloy>
+	<NavigationWindow id="main">
+		<Require src="main" />
+	</NavigationWindow>
+</Alloy>

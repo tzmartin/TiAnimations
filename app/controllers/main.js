@@ -18,7 +18,7 @@ var examples = [
     {title:'Dial', platform:"android, iphone, ipad", header:'2D Matrix', hasChild:true, file:'examples/2dmatrix1'},
     {title:'Spinner', platform:"android, iphone, ipad", hasChild:true, file:'examples/2dmatrix2'},
     {title:'Clouds', platform:"android, iphone, ipad", hasChild:true, file:'examples/2dmatrix3'},
-    {title:'Anchor Points', platform:"android, iphone, ipad", hasChild:true, file:'examples/anchorpoints'},
+    {title:'Anchor Points', platform:"iphone, ipad", hasChild:true, file:'examples/anchorpoints'},
     {title:'3D Flip', platform:"iphone, ipad", header:'iOS 3D Matrix', hasChild:true, file:'examples/3dmatrix1'},
     {title:'Flip From Right/Left', platform:"iphone, ipad", header:"iOS Transitions", hasChild:true, file:'examples/transitions'},
     {title:'Page Curl Up/Down', platform:"iphone, ipad", hasChild:true, file:'examples/curl'},

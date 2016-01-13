@@ -1,0 +1,16 @@
+"#view":{
+  bottom:0,
+  width:Titanium.UI.FILL,
+  height:Titanium.UI.FILL,
+}
+"#logo":{
+    image:'/logo.png',
+    width:155
+}
+
+"#title":{
+    image:'/logo.title.png',
+    left:-200,
+    bottom:20,
+    width:200
+}

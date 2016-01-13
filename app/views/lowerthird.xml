@@ -1,0 +1,6 @@
+<Alloy>
+  <View id="view" onClick="hideView">
+    <ImageView id="logo" />
+    <ImageView id="title" />
+  </View>
+</Alloy>

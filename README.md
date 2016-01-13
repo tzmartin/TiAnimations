@@ -10,8 +10,6 @@
 
 ![Android](https://monosnap.com/file/FJUELLyA8QbIzPLB1w8q5YFivLEhhA.png)
 
-```
-
 ## Theme
 
 This app implements the custom Appcelerator android theme (see `platform/android`).
@@ -41,7 +39,7 @@ This app implements the custom Appcelerator android theme (see `platform/android
 | | |- snap.xml
 | | |- transitions.xml
 | | |- viewAttachmentBehavior.xml
-
+```
 
 ## Authors
 

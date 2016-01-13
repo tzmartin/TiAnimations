@@ -13,7 +13,7 @@
 	<!-- Android -->
 	<Window id="win" title="About" platform="android">
 		<Menu id="menu" platform="android">
-			<MenuItem id="btnClose" title="Close" icon="Ti.Android.R.drawable.ic_menu_stop" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="doClose"/>
+			<MenuItem id="btnClose" title="Close" icon="Ti.Android.R.drawable.ic_menu_close_clear_cancel" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="doClose"/>
 		</Menu>
 		<WebView id="webview" />
 	</Window>

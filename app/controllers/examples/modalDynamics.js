@@ -26,6 +26,9 @@ var dynamicObj = Ti.UI.iOS.createDynamicItemBehavior({
   allowsRotation: true
 });
 
+function closeWin(evt){
+	$.win.close();
+}
 
 function doOpen() {
   animator.addBehavior(snap0);
@@ -37,10 +40,10 @@ function doShowAlert(e){
   animator.addBehavior(snap1);
 }
 function doDismissAlert(e){
-  
+
   dynamicObj.addAngularVelocityForItem($.modal,1);
   animator.removeBehavior(snap1);
-  
+
   setTimeout(function() {
     animator.addBehavior(snap0);
   },2000);

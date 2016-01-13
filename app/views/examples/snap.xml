@@ -1,5 +1,9 @@
 <Alloy>
 	<Window id="win" onOpen="doOpen">
+
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"/>
+
 		<View id="block" onClick="doSnap" onTouchstart="doTouchStart" onTouchmove="doTouchMove" onTouchend="doTouchEnd"/>
+		
 	</Window>
 </Alloy>

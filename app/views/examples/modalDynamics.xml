@@ -1,8 +1,10 @@
 <Alloy>
 	<Window id="win" onOpen="doOpen">
+
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"/>
 		
 		<Button id="open" onClick="doShowAlert" />
-		
+
 		<View id="modal">
 		    <View class="container">
 		      <Label id="title" />
@@ -12,6 +14,6 @@
 		        <Button id="close" onClick="doDismissAlert" />
 		    </View>
 		</View>
-		
+
 	</Window>
 </Alloy>

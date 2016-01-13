@@ -1,5 +1,9 @@
 var args = arguments[0] || {};
 
+function closeWin(evt){
+	$.win.close();
+}
+
 function doClick() {
     $.box1.animate({
         opacity:0,

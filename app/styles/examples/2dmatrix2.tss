@@ -3,13 +3,13 @@
   top:0,
   width:Ti.Platform.displayCaps.platformHeight,
   height:Ti.Platform.displayCaps.platformWidth,
-  image:'images/wof.bg.png'
+  image:'/images/wof.bg.png'
 }
 "#spinner" : {
   top:80,
   width:711,
   height:711,
-  image:'images/wof.wheel.png'
+  image:'/images/wof.wheel.png'
 }
 
 "#angleLabel":{

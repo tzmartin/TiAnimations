@@ -1,5 +1,5 @@
 <Alloy>
 	<Window id="win">
-		
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"/>
 	</Window>
 </Alloy>

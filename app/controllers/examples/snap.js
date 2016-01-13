@@ -12,6 +12,9 @@ var snap = Ti.UI.iOS.createSnapBehavior({
 });
 
 // Controller Functions
+function closeWin(evt){
+	$.win.close();
+}
 
 function doSnap(e){
     // Snap the block to the point of the click event

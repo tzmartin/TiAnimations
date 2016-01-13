@@ -20,6 +20,11 @@ var push = Ti.UI.iOS.createPushBehavior({
     pushDirection: {x: 0.0, y: 1.0},
     pushMode: Ti.UI.iOS.PUSH_MODE_INSTANTANEOUS
 });
+
+function closeWin(evt){
+	$.win.close();
+}
+
 push.addItem(block);
 animator.addBehavior(push);
 

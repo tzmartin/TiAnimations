@@ -1,10 +1,12 @@
 <Alloy>
 	<Window id="win">
-		
+
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"/>
+
 		<View id="container" onClick="doClick">
 			<View id="box1" />
-			<View id="box2" />						
+			<View id="box2" />
 		</View>
-		
+
 	</Window>
 </Alloy>

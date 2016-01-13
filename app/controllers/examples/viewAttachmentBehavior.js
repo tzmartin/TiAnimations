@@ -27,6 +27,10 @@ var gravity = Ti.UI.iOS.createGravityBehavior({
     gravityDirection: {x: 0.0, y: 1.0}
 });
 
+function closeWin(evt){
+	$.win.close();
+}
+
 // Controller functions
 function doRedClick(e){
     // Change the anchor item
@@ -51,4 +55,3 @@ animator.addBehavior(redSnap);
 animator.addBehavior(blueSnap);
 animator.addBehavior(anchor);
 animator.addBehavior(gravity);
-

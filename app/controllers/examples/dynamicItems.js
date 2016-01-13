@@ -1,10 +1,15 @@
 var args = arguments[0] || {};
 
 /*
- * The following example create two blocks, which are pushed towards each other. 
- * Because the red block is more dense and has higher resistance than the blue block, 
+ * The following example create two blocks, which are pushed towards each other.
+ * Because the red block is more dense and has higher resistance than the blue block,
  * the red block moves steadily to the left, while the blue block spins around unpredictably.
  */
+
+function closeWin(evt){
+	$.win.close();
+}
+
 
 // Create an Animator object using the window as the coordinate system
 var animator = Ti.UI.iOS.createAnimator({referenceView: $.win});

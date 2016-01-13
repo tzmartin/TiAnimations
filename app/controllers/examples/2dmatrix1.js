@@ -2,8 +2,12 @@
 
 var args = arguments[0] || {};
 
+function closeWin(evt){
+	$.win.close();
+}
+
 var wheelImage = Ti.UI.createImageView({
-	image:'images/wheel.png'
+	image:'/images/wheel.png'
 });
 
 var angleLabel = Ti.UI.createLabel({
@@ -30,7 +34,7 @@ wheelImage.addEventListener('touchmove', function(e){
 	var deltaAngle = movedAngle - initialAngle;
 	currentAngle += deltaAngle;
 	if (currentAngle > 2.0 * Math.PI){
-		currentAngle -= 2.0 * Math.PI; 
+		currentAngle -= 2.0 * Math.PI;
 	}
   	if (currentAngle < 0.0){
   		currentAngle += 2.0 * Math.PI;

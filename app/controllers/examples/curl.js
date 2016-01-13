@@ -1,6 +1,10 @@
 var args = arguments[0] || {};
 var selectedIndex = 0;
 
+function closeWin(evt){
+	$.win.close();
+}
+
 //iOS only animation
 function doClick() {
 

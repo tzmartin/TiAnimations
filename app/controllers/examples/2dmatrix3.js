@@ -1,3 +1,7 @@
+function closeWin(evt){
+	$.win.close();
+}
+
 //
 // CREATE TWO CLOUDS
 //

@@ -1,3 +1,7 @@
+function closeWin(evt){
+	$.win.close();
+}
+
 //
 // REUSABLE ANIMATION WITH TRANSFORM
 //

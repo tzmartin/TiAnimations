@@ -12,9 +12,9 @@
 
 	<!-- Android -->
 	<Window id="win" title="About" platform="android">
-		<Menu id="menu" platform="android">
-			<MenuItem id="btnClose" title="Close" icon="Ti.Android.R.drawable.ic_menu_close_clear_cancel" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="doClose"/>
-		</Menu>
+		<!-- displayHomeAsUp shows the ActionBar Up Button -->
+		<!-- onHomeIconItemSelected is the event listener for that button -->
+		<ActionBar  displayHomeAsUp="true"  onHomeIconItemSelected="doClose"/>
 		<WebView id="webview" />
 	</Window>
 

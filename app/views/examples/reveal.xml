@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win">
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"/>
+        <Button onClick="toggleView" top="30">Show/Hide</Button>
+        <View backgroundColor="red" id="theView" height="50" width="100" visible="true"/>
+	</Window>
+</Alloy>

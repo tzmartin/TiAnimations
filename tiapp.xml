@@ -4,14 +4,14 @@
     <name>TiAnimations</name>
     <version>1.1</version>
     <publisher>tzmartin</publisher>
-    <url>http://</url>
-    <description>undefined</description>
+    <url>http://www.tzmartin.com</url>
+    <description>A kitchen sink for animation effects</description>
     <copyright>2016 by tzmartin</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
-    <analytics>true</analytics>
-    <guid>b2ccdc33-4c5f-4d8d-bf42-9b6d1d39faab</guid>
+    <analytics>false</analytics>
+    <guid>11111111-1111-1111-1111-111111111111</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>

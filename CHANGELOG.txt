@@ -1,1 +1,6 @@
-Place your change log text here.  This file will be incorporated with your app at package time.
+v1.1
+
+* Fixed Android Animations
+* Ignore un-supported APIs in tableviews for Android
+* Add reveal
+* Update to 5.3.1.GA

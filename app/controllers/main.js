@@ -9,12 +9,20 @@ function doClick(e) {
 }
 
 function doOpenInfo() {
-    Alloy.createController('info').getView().open({modal:true});
+  // Using the modal property only on iOS
+  // on Android windows always behave as modals
+  var winArgs = {};
+  if (OS_IOS){
+    // open modal
+    winArgs.modal = true;
+  }
+  Alloy.createController('info').getView().open(winArgs);
 }
 
 var examples = [
     {title:'Fade Effects', platform:"android, iphone OS, ipad", hasChild:true, file:'examples/fade'},
     {title:'Fly In/Out', platform:"android, iphone, ipad", hasChild:true, file:'examples/flyin'},
+    {title:'Reveal', platform:"android", hasChild:true, file:'examples/reveal'},
     {title:'Dial', platform:"android, iphone, ipad", header:'2D Matrix', hasChild:true, file:'examples/2dmatrix1'},
     {title:'Spinner', platform:"android, iphone, ipad", hasChild:true, file:'examples/2dmatrix2'},
     {title:'Clouds', platform:"android, iphone, ipad", hasChild:true, file:'examples/2dmatrix3'},
